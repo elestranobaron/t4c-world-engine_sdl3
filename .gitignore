@@ -1,69 +1,31 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# --- Build CMake / SDL3 ---
+/build/
+/_deps/
+/out/
+cmake-build-*/
+# --- Objets / binaires ---
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.so
 *.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
+mapi_sdl3
+# --- Assets T4C (NE PAS publier — contenu propriétaire) ---
+/data/
+/data/**
+*.dec
+*.vsf
+*.rmap
+*.vsb
+# --- Symlinks locaux (chemins absolus vers path_to_follow) ---
+# Copier le vrai code dans TnC_dev/ avant de committer, puis retirer ces lignes.
+# TnC_dev/FontManager
+# TnC_dev/VSFInterface
+# TnC_dev/NPCManager
+# TnC_dev/TextManager
+# TnC_dev/fonts
+# --- Fichiers temporaires ---
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+*~
+.DS_Store
+Thumbs.db
+*.log
