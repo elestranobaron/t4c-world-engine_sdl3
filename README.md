@@ -1,6 +1,6 @@
 # t4c-world-engine_sdl3
 Moteur graphique **TnC The Next Coming** (mestoph / Noth), porté **SDL3 natif** pour *The 4th Coming*.
-Compilé dans le client Linux sibling [`t4c_client`](../client/) via `cmake/TncGraphical.cmake`.
+Compilé dans le client Linux sibling [`t4c_client`](../t4c-168-vs2022/) via `cmake/TncGraphical.cmake`.
 > Ancien nom local : `client_graphical_sdl3_test` — ce repo est le **moteur de prod**, pas un labo de test.
 ## Contenu
 | Dossier | Rôle |
